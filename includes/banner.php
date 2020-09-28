@@ -8,20 +8,30 @@
 ?>
 
 
-        <div class="banner">
-          
-          
-            <div class="container">
-                <div class="redDash"></div>
-                <h1 class="mainName">Company Name</h1>
-                <h2 class="subTitle">We are great at what we do!</h2>
-                <div class="redDash"></div>
-                <div class="mainDesc underlined">
-                    Lorem ipsum dolor sit amet, consectetur elit.
-                    Aenean quam ante, egestas tristique consequat ut,
-                    Donec commodo eros at felis tempor at porttitor.
-                </div><!--/mainDesc-->
-            </div><!--/ banner container-->
-            
-            
-        </div><!--/banner-->
+<div class="banner">     
+    <div class="container">  
+        <h1 class="mainName">Search</h1>
+        <div class="tabs">
+            <ul class="ultab">
+                <li><a>For Sale</a></li>
+                <li><a>To Rent</a></li>                    
+            </ul>
+        </div><!-- tabs -->          
+        <div class="redDash"></div><!-- redDash -->
+
+        <div class="fields">
+            <div>
+                <input name="cityPostcode" type="text" placeholder="City/Postcode" required>
+            </div><!-- City/Postcode -->
+            <div>
+                <input name="min" type="number" placeholder="Min." required>
+            </div><!-- Min -->
+            <div>
+                <input name="max" type="number" placeholder="Max." required>
+            </div><!-- Max -->            
+        </div>  <!-- fields -->
+        <div>
+             <input name="Submit" type="submit" class="btnSubmit">
+        </div><!-- submit Button -->
+    </div><!--/container-->
+</div><!--/banner-->
