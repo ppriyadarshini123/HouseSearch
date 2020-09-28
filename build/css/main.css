@@ -1,0 +1,393 @@
+/**  */
+/******************
+ *  CSS RESET SECTION
+ ***********************************/
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0b2 | 201101 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, #nav, output, ruby, section, summary, time, mark, audio,
+video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+img, iframe{vertical-align: top;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, main, menu, #nav, section, canvas, video { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, bloc137
+kquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/******************
+ *   GENERAL SECTION
+ ***********************************/
+html, body { width: 100%; height: 100%; }
+*, *:before, *:after{box-sizing: border-box;}
+
+.container{
+    width: 960px;
+    margin:0 auto;
+}
+
+.underlined{
+    border-bottom:1px solid #ff3f38;
+}
+
+
+/******************
+ *  FEEDBACK  SECTION
+ ***********************************/
+.feedback{
+    color:#fff;
+    padding:20px 0;
+}
+.successMsg, .failMsg{
+    padding:15px 20px;
+    font-size:14px;
+    font-weight: 300;
+    margin:20px 0;
+    letter-spacing: .8px;
+}
+
+.successMsg{
+    background-color: darkgreen;
+    border:5px solid darkgreen;
+    background-image: url("../../build/imgs/yep.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 20px;
+}
+
+.failMsg{
+    background-color: red;
+    border:5px solid red;
+    background-image: url("../../build/imgs/nope.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 20px;
+}
+
+
+
+/******************
+ *  TYPOGRAPHY  SECTION
+ ***********************************/
+body{ font-family: "Roboto", Sans-serif; background-color: #fff;}
+a{text-decoration: none;}
+
+
+/******************
+ *  BUTTONS  SECTION
+ ***********************************/
+
+
+.btn{
+    border:none;
+    outline:none;
+    background-color: white;
+    text-transform: uppercase;
+    display: block;
+    padding:15px 0;
+    font-size:12px;
+    font-weight:400;
+    color:#1e3b4d;
+    text-align: center;
+    cursor:pointer;
+}
+
+.btn:hover{
+    color:#ff3e38;
+}
+.ckBtn:active{
+    position: relative;
+    top:1px;
+}
+
+
+button[type=submit], .blueBtn{
+    background-color: #1f3c4e;
+    color:#fff;
+}
+
+
+button[type=submit]:hover, .blueBtn:hover{
+    background-color: #ff3e38;
+    color:#fff;
+}
+
+
+/******************
+ *  HEADER  SECTION
+ ***********************************/
+
+/****************** topHeader */
+
+.topHeader
+{
+    height: 80px;
+    width: 100%;    
+    margin-bottom: 13vw;   
+}
+
+
+
+.logo
+{
+	width: 300px;
+	height: 200px;
+	padding-left: 30px;
+}
+
+.cName{
+    font-size: 16px;
+    display: inline-block;
+    padding-top: 33px;
+    margin-left: 10px;
+    height: 80px;
+    color:#1e3b4d;
+}
+
+.identity, .topNav{display:inline-block;}
+
+.topNav {
+    float:right;
+    /* height: 80px;
+    max-width: calc(100% - 220px); */
+    margin-right: 55px;
+    margin-top: 10vw;
+}
+.topNav ul{
+    display:-ms-flexbox;
+    display:flex;
+    height: 100%;
+}
+
+.topNav a{
+    display: inline-block;
+    font-size:12px;
+    text-transform: uppercase;
+    border-bottom:4px solid #fff;
+    height: 100%;
+    padding-top:32px;
+    margin:0 15px ;
+    color:#1e3b4d;
+}
+
+.topNav a.currentPageLink{
+    border-bottom:4px solid #ff3f38;
+    color:#ff3f38;
+}
+
+.topNav a.currentPageLink:hover{
+    text-decoration: none;
+}
+
+.topNav a:hover{
+    text-decoration: underline;
+}
+
+.topNav a.redLink{color: #ff3f38;}
+
+.topNav a span.greyLink{color:#bfbfbf;}
+
+
+
+/****************** banner */
+.banner{
+    background-image: url("../imgs/typing_banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:65px 0;
+    color: #fff;
+    border-top: 1px solid green;
+}
+
+.redDash{
+    background-color: #ff3f38;
+    width: 25px;
+    height: 4px;
+}
+.mainName{
+    font-size: 42px;
+    width:300px;
+    margin:15px 0;
+    font-weight: 400;
+}
+
+.subTitle{
+    font-size:24px;
+    margin:15px 0;
+}
+
+.mainDesc{
+    font-weight: 300;
+    font-size:18px;
+    width: 400px;
+    line-height: 22px;
+    padding: 20px 0 50px;
+}
+
+
+
+/******************
+ *  MAIN  SECTION
+ ***********************************/
+main{background-color: #eee;}
+
+
+/****************** offer */
+.offer{
+    padding:50px 0;
+    background-color: #fff;
+}
+
+.offer .container{
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.offerLeft{
+    width: 390px;
+}
+
+.offerTitle{
+    font-size: 25px;
+    color:#1f3c4e;
+    padding:25px 0;
+    margin-bottom: 25px;
+}
+
+.offerLeft p{
+    font-weight: 300;
+    color:#575757;
+    font-size: 16px;
+    line-height: 20px;
+}
+.offerLeft p:nth-of-type(1){
+    margin-bottom: 30px;
+}
+
+.offerVideo{
+    background-color: #efefef;
+    background-image: url("../imgs/Symbols/youtube-play.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    height:290px;
+}
+
+
+/****************** promises */
+.promises{
+    padding:95px 0 55px;
+    background-image: url("../../build/imgs/smiling_banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.promiseTitle{
+    color:#fff;
+    font-size: 24px;
+    padding:20px 0;
+    font-weight: 400;
+    width: 387px;
+}
+
+
+/****************** promises */
+.mainBody{
+    border-top:15px solid #f6f6f6 ;
+    padding:40px 0 ;
+}
+
+.flexCont{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction:row;
+    flex-direction:row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.homeCol{
+    margin:20px 0 40px;
+    width: 240px;
+}
+.topCol h3{
+    display: inline-block;
+    font-size:16px;
+    font-weight: 400;
+    color:#1e3b4d;
+    padding-top:10px;
+    margin-left:10px;
+}
+
+.homeCol p{
+    font-size:16px;
+    font-weight: 300;
+    color:#585858;
+    letter-spacing: 1px;
+    margin:20px 0;
+    line-height: 21px;
+}
+
+
+.moreBtn{
+    width: 100%;
+}
+
+/******************
+ *  FOOTER  SECTION
+ ***********************************/
+.bottomFooter{
+    background-color: #ff3f38;
+    padding:45px 0;
+    color:#fff;
+    font-size:13px;
+    font-weight: 300;
+}
+
+.bottomFooter a{
+    color:#fff;
+    color:#fff;
+    font-size:13px;
+    font-weight: 300;
+}
+
+.bottomFooter p:first-child{
+    margin-bottom:10px;
+}
+
+.bottomFooter a:hover{
+    text-decoration: underline;
+}
+
+.footBanner{
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../build/imgs/hands_banner.jpg");
+    height: 290px;
+}
+
+
+/******************
+ *    SECTION
+ ***********************************/
+
+/******************
+ *    SECTION
+ ***********************************/
+
+/******************
+ *    SECTION
+ ***********************************/
+
+/******************
+ *    SECTION
+ ***********************************/
