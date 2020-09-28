@@ -9,6 +9,8 @@
 
 
         <div class="banner">
+          
+          
             <div class="container">
                 <div class="redDash"></div>
                 <h1 class="mainName">Company Name</h1>
@@ -19,6 +21,7 @@
                     Aenean quam ante, egestas tristique consequat ut,
                     Donec commodo eros at felis tempor at porttitor.
                 </div><!--/mainDesc-->
-
             </div><!--/ banner container-->
+            
+            
         </div><!--/banner-->

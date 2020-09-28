@@ -10,7 +10,7 @@
 
 
         <section class="offer">
-            <div class="container">
+            <div class="cont">
                 <div class="offerLeft">
                     <div class="redDash"></div>
                     <h2 class="underlined offerTitle">We offer the best!</h2>
@@ -28,7 +28,7 @@
         </section><!--/ offer-->
 
         <section class="promises">
-            <div class="container">
+            <div class="cont">
                 <div class="redDash"></div>
                 <h2 class="underlined promiseTitle">Our promises</h2>
             </div><!--/promises container-->

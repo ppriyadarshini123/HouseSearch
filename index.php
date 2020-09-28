@@ -23,7 +23,7 @@ include("includes/banner.php");
             
  <?php include("includes/homeIntro.php"); ?> 
             <section class="mainBody">
-                <div class="container flexCont">
+                <div class="cont flexCont">
                     <div class="homeCol">
                         <div class="topCol">
                             <img src="build/imgs/Symbols/symbol.png" width="31" height="31" alt="red logo">

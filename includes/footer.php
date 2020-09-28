@@ -11,7 +11,7 @@
         <footer>
             <div class="footBanner"></div><!--footBanner-->
             <div class="bottomFooter">
-                <div class="container">
+                <div class="con">
                     <p>HomeSearch &copy<?php echo date("Y");?> - PHP course project</p>
                     <p>
                         <a href="<?php echo ROOT;?>index.php">Home</a> 

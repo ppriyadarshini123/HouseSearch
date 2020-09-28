@@ -13,7 +13,7 @@
     <header>
         <div class="topHeader">
             <div class="identity">
-                <img class="logo" src="<?php echo ROOT;?>build/imgs/HomeSearch_logo_1-332x212.png" alt="logo">
+                <img class="logo" src="<?php echo ROOT;?>build/imgs/HomeSearch_logo_1-218x139.png" alt="logo">
                 <h3 class="cName"></h3>
             </div><!--/identity-->
             <nav class="topNav">
