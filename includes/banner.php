@@ -11,27 +11,30 @@
 <div class="banner">     
     <div class="container">  
         <h1 class="mainName">Search</h1>
-        <div class="tabs">
-            <ul class="ultab">
-                <li><a>For Sale</a></li>
-                <li><a>To Rent</a></li>                    
-            </ul>
-        </div><!-- tabs -->          
         <div class="redDash"></div><!-- redDash -->
-
         <div class="fields">
-            <div>
+            <div class="align">
+                <span class="spSaleRent">Sale/Rent : </span>
+                <select id="ddSaleRent" title="ddSaleRent" name="dropdown" class="ddSaleRent">
+                    <option value="sale">For Sale</option>
+                    <option value="rent">For Rent</option>
+                </select>             
+            </div>  <!-- saleRent -->
+            <div class="align">
+                <span class="spPostcode">Postcode : </span>
                 <input name="cityPostcode" type="text" placeholder="City/Postcode" required>
             </div><!-- City/Postcode -->
-            <div>
-                <input name="min" type="number" placeholder="Min." required>
+            <div class="align">
+                <span class="spMin">Min : </span>
+                <input name="min" type="number" placeholder="0" required>
             </div><!-- Min -->
-            <div>
-                <input name="max" type="number" placeholder="Max." required>
+            <div class="align">
+                <span class="spMax">Max : </span>
+                <input name="max" type="number" placeholder="450k" required>
             </div><!-- Max -->            
-        </div>  <!-- fields -->
-        <div>
-             <input name="Submit" type="submit" class="btnSubmit">
+        </div><!-- fields -->
+        <div class="alignBtn">
+            <input name="Submit" type="submit" class="btnSubmit">
         </div><!-- submit Button -->
     </div><!--/container-->
 </div><!--/banner-->

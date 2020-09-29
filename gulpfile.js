@@ -11,6 +11,12 @@ gulp.task('browser-sync', function() {
         }*/
     	proxy: 'http://localhost/Payal_Priyadarshini_PHP_Project'
     });
+    
+   
+    gulp.watch("includes/top.php").on('change', browserSync.reload);
+    gulp.watch("includes/header.php").on('change', browserSync.reload);
+    gulp.watch("includes/banner.php").on('change', browserSync.reload);
     gulp.watch("index.php").on('change', browserSync.reload);
+     gulp.watch("index.php").on('change', browserSync.reload);
 });
 

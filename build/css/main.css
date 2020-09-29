@@ -18,22 +18,22 @@ table { border-collapse: collapse; border-spacing: 0; }
 /******************
  *   GENERAL SECTION
  ***********************************/
+
 html, body { width: 100%; height: 100%; }
 *, *:before, *:after{box-sizing: border-box;}
 
 .container{
     width: 400px;
     position: absolute;
-    top: 30%;
+    top: 17%;
     left:12%;
-    background-color: #1CE823;
-   
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 1vw #1CE823 solid;
 }
-
 .underlined{
     border-bottom:1px solid #ff3f38;
 }
-
 
 /******************
  *  FEEDBACK  SECTION
@@ -69,8 +69,6 @@ html, body { width: 100%; height: 100%; }
     background-size: contain;
     padding-left: 20px;
 }
-
-
 
 /******************
  *  TYPOGRAPHY  SECTION
@@ -126,20 +124,13 @@ button[type=submit]:hover, .blueBtn:hover{
 /****************** topHeader */
 
 .topHeader
-{
-    
-    width: 100%;    
-    
-   
+{    
+    width: 100%;   
 }
-
-
 
 .logo
 {
-	padding-left: 30px;
-
-	
+    padding-left: 30px;	
 }
 
 .cName{
@@ -157,10 +148,9 @@ button[type=submit]:hover, .blueBtn:hover{
     float:right;
     /* height: 80px;
     max-width: calc(100% - 220px); */
-    margin-right: 10vw;
-    
-    
+    margin-right: 10vw;    
 }
+
 .topNav ul{
     display:-ms-flexbox;
     display:flex;
@@ -202,7 +192,7 @@ button[type=submit]:hover, .blueBtn:hover{
     background-image: url("../imgs/house-1351x460.png");
     background-repeat: no-repeat;
     height: 460px;
-    color: #fff;
+    color: #1CE823;
     border-top: 1px solid green;
     position: relative;
 }
@@ -211,14 +201,59 @@ button[type=submit]:hover, .blueBtn:hover{
     background-color: #ff3f38;
     width: 25px;
     height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vw;
 }
 .mainName{
     font-size: 42px;
     width:100%;
-    margin:15px 0;
+    padding-top: 1.2vw;
+    padding-bottom: 1.2vw;
     font-weight: 400;
-    color:#FEFF1F;
-    text-align: center;
+    color:#358016;
+    font-family: parkside, cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.align
+{
+    text-align: left;
+    padding-left: 73px;
+    padding-top: 1.2vw;
+    color: #358016;
+    letter-spacing: .1vw;
+}
+.alignBtn
+{
+    padding-top: 1.2vw;
+    padding-bottom: 1.2vw;
+}
+.fields
+{
+    
+}
+.ultab
+{
+
+    display: inline-flex;    
+}
+
+.link
+{
+    padding-right: 2vw;
+}
+.btnSubmit
+{
+    background-color: #358016;
+    color: #FFFFFF;
+    padding: 1vw; 
+    letter-spacing: .2vw;
+    font-family: parkside, cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+        
 }
 
 .subTitle{
