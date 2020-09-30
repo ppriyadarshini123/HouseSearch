@@ -1,27 +1,61 @@
 <?php
 /**
- * TrainingDragon
  *
- * PHP course project
- * url: /index.php
+ * PHP project
+ * url: /searchresult.php
  */
 
 
 ########   HERE SOME PHP SCRIPTING FOR THE PAGE    #########
-include("includes/utilities.php"); 
+include("includes/utilities.php");
 
+if(isset($dbok) && $dbok && isset($_GET['q'])){
+
+  // DO NOT FORGET VALIDATION AND SANITATION!!!!
+  $key = $_GET['q'];
+  /*
+    mysql wildcards:
+    * => any value
+    % => any substring
+    _ => any character
+  */
+
+
+  $q = "
+    SELECT
+      * 
+    FROM
+      `" . DBN . "`.`product`
+    WHERE
+      `product`.`pName` LIKE '%$key%'
+    OR        
+      `product`.`pDesc` LIKE '%$key%'      
+  ";
+
+  $res = $mysqli->query($q);
+
+  if( $res->num_rows > 0 ) {
+    $prods = [];
+
+    while($row = $res->fetch_assoc()){
+      array_push($prods, $row);
+    } // while
+    // trace($prods);
+  } else {
+    displayMsg('Could not find product or something went frong.', 'f');
+  } # select check
+
+} ### search logic
 
 ########   THIS IS THE BEGINNING OF THE MARKUP    #########
 
 include("includes/top.php");
 include("includes/header.php");
-include("includes/banner.php"); 
 ####
 ?>
 </header>
 <main>
-            
- <?php include("includes/homeIntro.php"); ?> 
+          
             <section class="mainBody">
                 <div class="cont flexCont">
                     <div class="homeCol">
@@ -56,6 +90,11 @@ include("includes/banner.php");
                     </div><!--/homeCol-->
                 </div><!--/mainBody container-->
             </section><!--/ mainBoby-->
+            
+            
+            
+            
+            
         </main>
 
  <?php include("includes/footer.php");?> 
