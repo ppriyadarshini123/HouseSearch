@@ -22,14 +22,11 @@ if(isset($dbok) && $dbok && isset($_GET['q'])){
 
 
   $q = "
-    SELECT
-      * 
-    FROM
-      `" . DBN . "`.`product`
-    WHERE
-      `product`.`pName` LIKE '%$key%'
-    OR        
-      `product`.`pDesc` LIKE '%$key%'      
+    SELECT `house`.`hID`, `rentsale`.`rsRentSale`, `house`.`city`, `house`.`postcode`, `house`.`price`, `house`.`streetname`,
+    `house`.`details`, `house`.`image`, `house`.`floorplan`, `house`.`housenumber`
+FROM `house` , `rentsale`
+LEFT JOIN `house` ON `rentsale`.`rsID` = `house`.`rsID`  AND `house`.`rsID` = `rentsale`.`rsID` 
+Where `house`.`rsID` = '$key' OR `house`.`postcode` = '$key' OR `house`.`price` = '$key'     
   ";
 
   $res = $mysqli->query($q);
