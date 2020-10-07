@@ -19,7 +19,7 @@
             <nav class="topNav">
                 <ul>
                     <li><a  href="<?php echo ROOT;?>index.php">Home</a></li> <!-- class="currentPageLink" -->
-                    <li><a href="<?php echo ROOT;?>admin/admin.php">Sign In</a></li>                
+                    <li><a href="<?php echo ROOT;?>admin/signin.php">Sign In</a></li>                
                 </ul>
             </nav><!--/topNav-->
         </div><!--/topHeader-->

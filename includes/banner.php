@@ -6,10 +6,8 @@
  * url: /includes/banner.php
  */
 ?>
-
-
 <div class="banner">     
-    <div class="container">  
+    <div class="containerSearchPanel">  
         <h1 class="mainName">Search</h1>
         <div class="redDash"></div><!-- redDash -->
         <div class="fields">

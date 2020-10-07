@@ -22,107 +22,16 @@ table { border-collapse: collapse; border-spacing: 0; }
 html, body { width: 100%; height: 100%; }
 *, *:before, *:after{box-sizing: border-box;}
 
-.container{
-    width: 400px;
-    position: absolute;
-    top: 17%;
-    left:12%;
-    background-color: #FFFFFF;
-    text-align: center;
-    border: 1vw #1CE823 solid;
-}
+body{ font-family: "Roboto", Sans-serif; background-color: #fff;}
+a{text-decoration: none;}
+
 .underlined{
     border-bottom:1px solid #ff3f38;
 }
 
 /******************
- *  FEEDBACK  SECTION
- ***********************************/
-.feedback{
-    color:#fff;
-    padding:20px 0;
-}
-.successMsg, .failMsg{
-    padding:15px 20px;
-    font-size:14px;
-    font-weight: 300;
-    margin:20px 0;
-    letter-spacing: .8px;
-}
-
-.successMsg{
-    background-color: darkgreen;
-    border:5px solid darkgreen;
-    background-image: url("../../build/imgs/yep.png");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-left: 20px;
-}
-
-.failMsg{
-    background-color: red;
-    border:5px solid red;
-    background-image: url("../../build/imgs/nope.png");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-left: 20px;
-}
-
-/******************
- *  TYPOGRAPHY  SECTION
- ***********************************/
-body{ font-family: "Roboto", Sans-serif; background-color: #fff;}
-a{text-decoration: none;}
-
-
-/******************
- *  BUTTONS  SECTION
- ***********************************/
-
-
-.btn{
-    border:none;
-    outline:none;
-    background-color: white;
-    text-transform: uppercase;
-    display: block;
-    padding:15px 0;
-    font-size:12px;
-    font-weight:400;
-    color:#1e3b4d;
-    text-align: center;
-    cursor:pointer;
-}
-
-.btn:hover{
-    color:#ff3e38;
-}
-.ckBtn:active{
-    position: relative;
-    top:1px;
-}
-
-
-button[type=submit], .blueBtn{
-    background-color: #1f3c4e;
-    color:#fff;
-}
-
-
-button[type=submit]:hover, .blueBtn:hover{
-    background-color: #ff3e38;
-    color:#fff;
-}
-
-
-/******************
  *  HEADER  SECTION
- ***********************************/
-
-/****************** topHeader */
-
+ ******************/
 .topHeader
 {    
     width: 100%;   
@@ -142,7 +51,9 @@ button[type=submit]:hover, .blueBtn:hover{
     color:#1e3b4d;
 }
 
-.identity, .topNav{display:inline-block;}
+.identity, .topNav{    
+    display:inline-block;
+}
 
 .topNav {
     float:right;
@@ -186,8 +97,10 @@ button[type=submit]:hover, .blueBtn:hover{
 .topNav a span.greyLink{color:#bfbfbf;}
 
 
+/******************
+ *  BANNER  SECTION
+ ******************/
 
-/****************** banner */
 .banner{
     background-image: url("../imgs/house-1351x460.png");
     background-repeat: no-repeat;
@@ -195,6 +108,16 @@ button[type=submit]:hover, .blueBtn:hover{
     color: #1CE823;
     border-top: 1px solid green;
     position: relative;
+}
+
+.containerSearchPanel{
+    width: 400px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 1vw #1CE823 solid;
+    position: absolute;
+    top:19%;
+    left: 12%;
 }
 
 .redDash{
@@ -218,11 +141,11 @@ button[type=submit]:hover, .blueBtn:hover{
 }
 .align
 {
-    text-align: left;
-    padding-left: 73px;
-    padding-top: 1.2vw;
+    text-align: center;
     color: #358016;
     letter-spacing: .1vw;
+    padding-top: .2vw;
+    padding-bottom: .2vw;
 }
 .alignBtn
 {
@@ -233,16 +156,7 @@ button[type=submit]:hover, .blueBtn:hover{
 {
     
 }
-.ultab
-{
 
-    display: inline-flex;    
-}
-
-.link
-{
-    padding-right: 2vw;
-}
 .btnSubmit
 {
     background-color: #358016;
@@ -255,140 +169,112 @@ button[type=submit]:hover, .blueBtn:hover{
     font-size: 20px;
         
 }
-
-.subTitle{
-    font-size:24px;
-    margin:15px 0;
-}
-
-.mainDesc{
-    font-weight: 300;
-    font-size:18px;
-    width: 400px;
-    line-height: 22px;
-    padding: 20px 0 50px;
-}
-
-
-
-/******************
- *  MAIN  SECTION
+/**********************************
+ *  MAIN (index.php) SECTION
  ***********************************/
 main{background-color: #eee;}
 
-
-/****************** offer */
-.offer{
-    padding:50px 0;
-    background-color: #fff;
+.mainBody
+{
+    
+}
+.container
+{
+    
+    background-color: #FFFFFF;
+    text-align: center;
+    border: .1vw #1CE823 solid;   
 }
 
-.offer .container{
-    display:-ms-flexbox;
-    display:flex;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+.searchResults
+{
+    
 }
 
-.offerLeft{
-    width: 390px;
+.resHouse
+{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
-.offerTitle{
-    font-size: 25px;
-    color:#1f3c4e;
-    padding:25px 0;
-    margin-bottom: 25px;
+.flexCont
+{
+    
 }
 
-.offerLeft p{
-    font-weight: 300;
-    color:#575757;
-    font-size: 16px;
-    line-height: 20px;
-}
-.offerLeft p:nth-of-type(1){
-    margin-bottom: 30px;
+.hImage
+{
+    
 }
 
-.offerVideo{
-    background-color: #efefef;
-    background-image: url("../imgs/Symbols/youtube-play.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 500px;
-    height:290px;
+.resStreetName
+{
+    
+}
+.hStreet
+{
+    
+}
+.resCity
+{
+    
+}
+.hCity
+{
+    
+}
+.resPrice
+{
+    
+}
+
+.hPrice
+{
+    
 }
 
 
-/****************** promises */
-.promises{
-    padding:95px 0 55px;
-    background-image: url("../../build/imgs/smiling_banner.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.promiseTitle{
+/******************
+ *  FEEDBACK  SECTION
+ ******************/
+.feedback{
     color:#fff;
-    font-size: 24px;
     padding:20px 0;
-    font-weight: 400;
-    width: 387px;
 }
-
-
-/****************** promises */
-.mainBody{
-    border-top:15px solid #f6f6f6 ;
-    padding:40px 0 ;
-}
-
-.flexCont{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction:row;
-    flex-direction:row;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-.homeCol{
-    margin:20px 0 40px;
-    width: 240px;
-}
-.topCol h3{
-    display: inline-block;
-    font-size:16px;
-    font-weight: 400;
-    color:#1e3b4d;
-    padding-top:10px;
-    margin-left:10px;
-}
-
-.homeCol p{
-    font-size:16px;
+.successMsg, .failMsg{
+    padding:15px 20px;
+    font-size:14px;
     font-weight: 300;
-    color:#585858;
-    letter-spacing: 1px;
     margin:20px 0;
-    line-height: 21px;
+    letter-spacing: .8px;
 }
 
-
-.moreBtn{
-    width: 100%;
+.successMsg{
+    background-color: darkgreen;
+    border:5px solid darkgreen;
+    background-image: url("../../build/imgs/yep.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 20px;
 }
 
+.failMsg{
+    background-color: red;
+    border:5px solid red;
+    background-image: url("../../build/imgs/nope.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 20px;
+}
 /******************
  *  FOOTER  SECTION
  ***********************************/
-.bottomFooter{
-    background-color: #ff3f38;
-    padding:45px 0;
+.bottomFooter
+{
+    background-color: #358016;
+    padding:45px 86px;
     color:#fff;
     font-size:13px;
     font-weight: 300;
@@ -399,10 +285,12 @@ main{background-color: #eee;}
     color:#fff;
     font-size:13px;
     font-weight: 300;
+    letter-spacing: .1vw;
 }
 
 .bottomFooter p:first-child{
     margin-bottom:10px;
+    letter-spacing: .1vw;
 }
 
 .bottomFooter a:hover{
@@ -410,11 +298,7 @@ main{background-color: #eee;}
 }
 
 .footBanner{
-    background-position: center;
-    background-position: center;
-    background-size: cover;
-    background-image: url("../../build/imgs/hands_banner.jpg");
-    height: 290px;
+    background-position: center;  
 }
 
 
