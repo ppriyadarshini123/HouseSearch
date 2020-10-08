@@ -2,22 +2,22 @@
 /**
  *
  * PHP course project
- * url: /index.php
+ * url: admin/signin.php
  */
-include("includes/utilities.php");
+
+include("../includes/utilities.php");
 
 //   THIS IS THE BEGINNING OF THE MARKUP
 
-include("includes/top.php");
-include("includes/header.php");
-include("includes/banner.php"); 
-
+include("../includes/top.php");
+include("../includes/header.php");
+include("../admin/adminNav.php");
 ?>
-</header>
+
 <main>
         <section class="mainBody">           
                 <div class="container">
-                    <section class="searchResults">                                  
+                     <section class="searchResults">                                  
                             <div class="resHouse flexCont"><!--result product-->
                                 <div class="hImage align">
                                   <img src="" width="106"  height="106" title=""
@@ -39,11 +39,11 @@ include("includes/banner.php");
                                 </div><!--/resPrice-->
                               </div>  <!--/resHouse-->             
                     </section><!--/searchResults-->
-                </div><!--/mainBody container-->
+                </div><!--/container-->
             </section><!--/ mainBody-->
         </main>
 
- <?php include("includes/footer.php");?> 
+ <?php include("../includes/footer.php");?> 
 
 </div><!--/wrapper-->
     <!-- add your JS here-->

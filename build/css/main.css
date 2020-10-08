@@ -145,12 +145,12 @@ a{text-decoration: none;}
     color: #358016;
     letter-spacing: .1vw;
     padding-top: .2vw;
-    padding-bottom: .2vw;
+    padding-bottom: 1.5vw;
 }
 .alignBtn
 {
     padding-top: 1.2vw;
-    padding-bottom: 1.2vw;
+    padding-bottom: 1vw;
 }
 .fields
 {
@@ -231,6 +231,31 @@ main{background-color: #eee;}
 .hPrice
 {
     
+}
+
+/******************
+ *  SIGNIN PAGE
+ ******************/
+.signinpage
+{
+    
+}
+.signin
+{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+.flexCont
+{
+    
+}
+.password
+{
+    
+}
+.spEmail
+{
+    padding-right: 3vw;
 }
 
 

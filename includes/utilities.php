@@ -54,10 +54,12 @@ if( isset($mysqli->connect_error) ) {
  *	            in a nice and readable fashion
  *  @param   object	$obj		the object to print
  */
-
+/**
 function trace($obj){
     echo "<pre>";
     print_r($obj);
     echo "</pre>";
 }//end trace
+ * */
+ 
 ?>
