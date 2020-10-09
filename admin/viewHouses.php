@@ -35,8 +35,11 @@ include("../admin/adminNav.php");
                                   <p class="hPrice"></p>
                                 </div><!--/resPrice-->
                                  <div class="align">
-                                     <a class="hFav" href=""/>
+                                     <a class="btnSubmit" href="">Add to favourites</a>
                                 </div><!--/resPrice-->
+                                 <div class="resAction vCentre">
+                                  <a href="" class="btnSubmit">Delete</a>
+                                </div><!--/resAction-->
                               </div>  <!--/resHouse-->             
                     </section><!--/searchResults-->
                 </div><!--/container-->

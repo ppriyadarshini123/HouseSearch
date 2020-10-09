@@ -13,6 +13,7 @@ include("includes/header.php");
 include("includes/banner.php"); 
 
 ?>
+ </div><!--/topHeader-->
 </header>
 <main>
         <section class="mainBody">           

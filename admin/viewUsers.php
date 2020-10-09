@@ -17,27 +17,26 @@ include("../admin/adminNav.php");
 <main>
         <section class="mainBody">           
                 <div class="container">
-                     <section class="searchResults">                                  
-                            <div class="resHouse flexCont"><!--result product-->
-                                <div class="hImage align">
-                                  <img src="" width="106"  height="106" title=""
-                                       alt="">
-                                </div><!--/hImage-->
-                                <div class="resStreetName align">
+                  <section class="searchResults">                                  
+                            <div class="resUserDetails flexCont"><!--result product-->
+                                <div class="uRole align">
+                                   <p class="uRole"></p>
+                                </div><!--/uRole-->
+                                <div class="uName align">
                                   <div>                                   
-                                    <p class="hStreet"></p>
+                                    <p class="uName"></p>
                                   </div>
-                                </div><!--/resStreetName-->
-                                <div class="resCity align">
-                                  <p class="hCity"></p>
-                                </div><!--/resCity-->
-                                <div class="resPrice align">
-                                  <p class="hPrice"></p>
-                                </div><!--/resPrice-->
-                                 <div class="align">
-                                     <a class="hFav" href=""/>
-                                </div><!--/resPrice-->
-                              </div>  <!--/resHouse-->             
+                                </div><!--/uName-->
+                                <div class="uEmail align">
+                                  <p class="uEmail"></p>
+                                </div><!--/uEmail-->
+                                <div class="uPhone align">
+                                  <p class="uPhone"></p>
+                                </div><!--/uPhone-->                                
+                                 <div class="resAction vCentre">
+                                  <a href="" class="btnSubmit">Delete</a>
+                                </div><!--/resAction-->
+                              </div>  <!--/resUserDetails-->             
                     </section><!--/searchResults-->
                 </div><!--/container-->
             </section><!--/ mainBody-->

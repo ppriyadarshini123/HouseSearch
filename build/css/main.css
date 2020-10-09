@@ -23,7 +23,11 @@ html, body { width: 100%; height: 100%; }
 *, *:before, *:after{box-sizing: border-box;}
 
 body{ font-family: "Roboto", Sans-serif; background-color: #fff;}
-a{text-decoration: none;}
+a
+{
+    text-decoration: none;
+    color: #000000;
+}
 
 .underlined{
     border-bottom:1px solid #ff3f38;
@@ -35,6 +39,11 @@ a{text-decoration: none;}
 .topHeader
 {    
     width: 100%;   
+    position: relative;
+}
+header
+{
+    border: .1vw #1CE823 solid;
 }
 
 .logo
@@ -56,7 +65,9 @@ a{text-decoration: none;}
 }
 
 .topNav {
-    float:right;
+    position: absolute;
+    top:0;
+    right:0;
     /* height: 80px;
     max-width: calc(100% - 220px); */
     margin-right: 10vw;    
@@ -95,6 +106,39 @@ a{text-decoration: none;}
 .topNav a.redLink{color: #ff3f38;}
 
 .topNav a span.greyLink{color:#bfbfbf;}
+
+/******************
+ *  ADMINNAV  SECTION
+ ******************/
+.bottomNav
+{        
+    display: inline-flex;   
+    position: absolute;
+    right: 0;
+    bottom:0;
+    padding-right: 10vw;    
+}
+
+.navWidth
+{
+    display: flex;
+    justify-content: space-between;
+    width: 37vw;    
+}
+.navWidth li
+{
+   
+}
+
+.adminNav
+{
+    color:#358016;
+}
+.adminNav:hover
+{
+    
+    text-decoration: underline;
+}
 
 
 /******************
@@ -141,11 +185,11 @@ a{text-decoration: none;}
 }
 .align
 {
-    text-align: center;
     color: #358016;
     letter-spacing: .1vw;
     padding-top: .2vw;
     padding-bottom: 1.5vw;
+    margin-bottom: .9vw;
 }
 .alignBtn
 {
@@ -183,7 +227,7 @@ main{background-color: #eee;}
     
     background-color: #FFFFFF;
     text-align: center;
-    border: .1vw #1CE823 solid;   
+    
 }
 
 .searchResults
@@ -194,7 +238,7 @@ main{background-color: #eee;}
 .resHouse
 {
     margin-top: 1vw;
-    margin-bottom: 1vw;
+    margin-bottom: 2vw;
 }
 
 .flexCont
@@ -247,7 +291,8 @@ main{background-color: #eee;}
 }
 .flexCont
 {
-    
+    margin-bottom: 2vw;
+    margin-top: 2vw;
 }
 .password
 {
@@ -258,6 +303,55 @@ main{background-color: #eee;}
     padding-right: 3vw;
 }
 
+/******************
+ *  VIEW USERS PAGE
+ ******************/
+
+.searchResults
+{
+    
+}
+
+.resUserDetails
+{
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+
+.flexCont
+{
+    
+}
+
+.uRole
+{
+    
+}
+
+.resStreetName
+{
+    
+}
+.uName
+{
+    
+}
+.uEmail
+{
+    
+}
+.uPhone
+{
+    
+}
+
+/******************
+ *  ADD HOUSE PAGE
+ ******************/
+.form
+{
+    padding-top: 1.5vw;
+}
 
 /******************
  *  FEEDBACK  SECTION

@@ -7,13 +7,14 @@
 
 ?>
  <nav class="bottomNav">
-                <ul>
-                    <li><a  href="admin/viewUsers.php">View User</a></li> 
-                    <li><a href="admin/addUser.php">Add User</a></li>   
-                    <li><a href="admin/viewHouses.php">View Houses</a></li> 
-                    <li><a href="admin/addHouse.php">Add House</a></li> 
+                <ul class="navWidth">
+                    <li><a class="adminNav" href="viewHouses.php">View Houses</a></li> 
+                    <li><a class="adminNav" href="addHouse.php">Add/Edit House</a></li> 
+                    <li><a class="adminNav" href="viewUsers.php">View Users</a></li> 
+                    <li><a class="adminNav" href="addUser.php">Add/Edit User</a></li>                     
                 </ul>
 </nav><!--/bottomNav-->
+ </div><!--/topHeader-->
 </header>
         
 
