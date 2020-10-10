@@ -2,7 +2,7 @@
 /**
  *
  * PHP course project
- * url: admin/signin.php
+ * url: admin/viewUsers.php
  */
 
 include("../includes/utilities.php");
@@ -17,20 +17,23 @@ include("../admin/adminNav.php");
 <main>
         <section class="mainBody">           
                 <div class="container">
-                  <section class="searchResults">                                  
+                  <section class="searchResults">  
+                       <div class="headingCenter">
+                            <h1>View Users</h1>
+                        </div><!--align heading-->
                             <div class="resUserDetails flexCont"><!--result product-->
-                                <div class="uRole align">
+                                <div class="uRole alignView">
                                    <p class="uRole"></p>
                                 </div><!--/uRole-->
-                                <div class="uName align">
+                                <div class="uName alignView">
                                   <div>                                   
                                     <p class="uName"></p>
-                                  </div>
+                                  </div><!--/uName-->
                                 </div><!--/uName-->
-                                <div class="uEmail align">
+                                <div class="uEmail alignView">
                                   <p class="uEmail"></p>
                                 </div><!--/uEmail-->
-                                <div class="uPhone align">
+                                <div class="uPhone alignView">
                                   <p class="uPhone"></p>
                                 </div><!--/uPhone-->                                
                                  <div class="resAction vCentre">
@@ -50,3 +53,4 @@ include("../admin/adminNav.php");
     <!--/ your JS here-->
 </body>
 </html>
+

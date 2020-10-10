@@ -13,7 +13,9 @@
     <header>
         <div class="topHeader">
             <div class="identity">
-                <img class="logo" src="<?php echo ROOT;?>build/imgs/HomeSearch_logo_1-218x139.png" alt="logo">
+                <a  href="<?php echo ROOT;?>index.php">
+                 <img class="logo" src="<?php echo ROOT;?>build/imgs/HomeSearch_logo_1-218x139.png" alt="logo">
+                 </a>
                 <h3 class="cName"></h3>
             </div><!--/identity-->
             <nav class="topNav">

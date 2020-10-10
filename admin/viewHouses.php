@@ -17,24 +17,27 @@ include("../admin/adminNav.php");
 <main>
         <section class="mainBody">           
                 <div class="container">
-                  <section class="searchResults">                                  
+                  <section class="searchResults">                               
+                       <div class="headingCenter">
+                            <h1>View Houses</h1>
+                        </div><!--align heading-->
                             <div class="resHouse flexCont"><!--result product-->
-                                <div class="hImage align">
+                                <div class="hImage alignView">
                                   <img src="" width="106"  height="106" title=""
                                        alt="">
                                 </div><!--/hImage-->
-                                <div class="resStreetName align">
+                                <div class="resStreetName alignView">
                                   <div>                                   
                                     <p class="hStreet"></p>
-                                  </div>
+                                  </div><!--/hStrreet-->
                                 </div><!--/resStreetName-->
-                                <div class="resCity align">
+                                <div class="resCity alignView">
                                   <p class="hCity"></p>
                                 </div><!--/resCity-->
-                                <div class="resPrice align">
+                                <div class="resPrice alignView">
                                   <p class="hPrice"></p>
                                 </div><!--/resPrice-->
-                                 <div class="align">
+                                 <div class="alignView">
                                      <a class="btnSubmit" href="">Add to favourites</a>
                                 </div><!--/resPrice-->
                                  <div class="resAction vCentre">

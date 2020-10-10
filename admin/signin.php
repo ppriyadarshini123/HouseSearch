@@ -20,11 +20,11 @@ include("../includes/header.php");
                     <section class="signinpage">                                  
                             <div class="signin flexCont"><!--result product-->
                                 <p class="signin">Sign In</p>
-                                <div class="email align">
+                                <div class="email alignView">
                                     <span class="spEmail">Email : </span>
                                     <input name="email" type="email" placeholder="john@johndoe.com" required>
                                 </div><!--/email-->
-                                <div class="password align"> 
+                                <div class="password alignView"> 
                                     <span class="spPsw">Password : </span>
                                     <input name="password" type="password" placeholder="" required>                                  
                                 </div><!--/password-->                               

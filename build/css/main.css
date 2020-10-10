@@ -135,9 +135,12 @@ header
     color:#358016;
 }
 .adminNav:hover
-{
-    
+{    
     text-decoration: underline;
+}
+.adminNav:active
+{
+    color: tomato;
 }
 
 
@@ -160,7 +163,7 @@ header
     text-align: center;
     border: 1vw #1CE823 solid;
     position: absolute;
-    top:19%;
+    top:7%;
     left: 12%;
 }
 
@@ -190,6 +193,8 @@ header
     padding-top: .2vw;
     padding-bottom: 1.5vw;
     margin-bottom: .9vw;
+    display: flex;
+    justify-content: space-between;
 }
 .alignBtn
 {
@@ -230,20 +235,10 @@ main{background-color: #eee;}
     
 }
 
-.searchResults
-{
-    
-}
-
 .resHouse
 {
     margin-top: 1vw;
     margin-bottom: 2vw;
-}
-
-.flexCont
-{
-    
 }
 
 .hImage
@@ -304,23 +299,18 @@ main{background-color: #eee;}
 }
 
 /******************
- *  VIEW USERS PAGE
+ *  VIEW USERS/HOUSES PAGE
  ******************/
 
 .searchResults
 {
-    
+    padding-top: 1.5vw;
 }
 
 .resUserDetails
 {
     margin-top: 1vw;
     margin-bottom: 2vw;
-}
-
-.flexCont
-{
-    
 }
 
 .uRole
@@ -344,6 +334,15 @@ main{background-color: #eee;}
 {
     
 }
+.alignView
+{
+    color: #358016;
+    letter-spacing: .1vw;
+    padding-top: .2vw;
+    padding-bottom: 1.5vw;
+    margin-bottom: .9vw;
+    justify-content: space-between;
+}
 
 /******************
  *  ADD HOUSE PAGE
@@ -351,6 +350,36 @@ main{background-color: #eee;}
 .form
 {
     padding-top: 1.5vw;
+     text-align: left;
+   width: 32vw;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/******************
+ *  ADD USER PAGE
+ ******************/
+.editAddHouseAlign
+{
+   text-align: left;
+   width: 32vw;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.headingCenter
+{
+    text-align: center;
+    color: #358016;
+    letter-spacing: .1vw;
+    padding-top: .2vw;
+    padding-bottom: 1.5vw;
+    margin-bottom: .9vw;
+}
+
+.alignBtn
+{
+    text-align: center;
 }
 
 /******************
