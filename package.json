@@ -9,6 +9,7 @@
     "startServer": "browser-sync start --directory --proxy 'localhost/Payal_Priyadarshini_PHP_Project' --files 'build/js/*.js, *.php, build/css/*.css'"
   },
   "dependencies": {
+    "jquery": "~3.5.1",
     "nodejs": "0.0.0",
     "npm": "nodejs"
   },

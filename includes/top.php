@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/vnj5wbt.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo ROOT;?>build/css/main.css" media="screen"/>
-    <link rel="shortcut icon" type="image/x-icon" href="build/imgs/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href=""/>
     <meta name="author" content="Payal"/>
     <meta name="description" content="php project"/>
     <meta name="keywords" content="housing agency house search"/>

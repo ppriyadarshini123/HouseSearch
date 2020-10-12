@@ -16,23 +16,61 @@
 (function(){
 
 
-    const submit = document.getElementsByClassName("submitBtn");
-    const $menuIcon = $('#openNav');
+    /*const submit = document.getElementsByClassName("submitBtn");
+    const $menuIcon = $('#openNav');*/
    
     
     /* FUNCTIONS*/
     
-    
-    
+     /**
+     * @name divFloorPlanClicked
+     * @desc Handling clicking of floor plan divs
+     */
+    function divFloorPlanClicked() {
+        console.log("divFloorPlanClicked");
+       
 
-  /**
+        $("#divFloorPlan").click(function(){
+            $("#clickedDivDetails").hide();
+            $("#clickedDivFloorPlan").show();
+            $("#divFloorPlan").css("background-color", "#358016");
+            $("#divFloorPlan").css("color", "#FFFFFF");
+            $("#divDetails").css("background-color", "#1CE823");
+            $("#divDetails").css("color", "#FEFF1F");
+        });        
+    }//divFloorPlanClicked
+    
+    
+    /**
+     * @name divDetailsClicked
+     * @desc Handling clicking of details divs
+     */
+    function divDetailsClicked() {
+        
+        console.log("divDetailsClicked");
+        $("#divDetails").click(function(){
+            $("#clickedDivFloorPlan").hide();
+            $("#clickedDivDetails").show();
+            $("#divDetails").css("background-color", "#358016");
+             $("#divDetails").css("color", "#FFFFFF");
+            $("#divFloorPlan").css("background-color", "#1CE823");
+            $("#divFloorPlan").css("color", "#FEFF1F");
+        });        
+    }//divDetailsClicked
+    
+    
+    
+    /**
      * @name bindBtns
      * @desc this will bind all the elements to their events
      */
     function bindBtns() {
-        validation();
-        myFunction();
-        postersSlider();
+        /*Initial look of Tabs; Details and Floor Plan*/
+         $("#divDetails").css("background-color", "#358016");
+         $("#divDetails").css("color", "#FFFFFF");
+             
+        divDetailsClicked();
+        divFloorPlanClicked();
     }//bindBtns
     
     
@@ -43,6 +81,7 @@
      */
     function init() {
         
+        bindBtns();
     }//end init
 
     /**

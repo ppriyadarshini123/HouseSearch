@@ -22,11 +22,11 @@ include("../admin/adminNav.php");
             <section class="editAddItem">               
                 <h2 class="sectionTitle"></h2>
                 <form method="post" enctype="multipart/form-data" action="#" class="">
-                    <div class="form">
-                        <div class="editAddHouseAlign">
-                        <div class="headingCenter">
+                     <div class="headingCenter">
                             <h1>Add/Edit User</h1>
                         </div><!--align heading-->
+                    <div class="form">
+                        <div class="editAddHouseAlign">                       
                         <div class="align">
                             <label for="uRole">Role:</label>
                              <input list="roles" name="role">

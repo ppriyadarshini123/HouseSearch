@@ -15,17 +15,12 @@ include("../admin/adminNav.php");
 <main>
     <section class="mainBody">
         <div class="container">
-
-        </div><!--container-->
-
-        <div class="container">
             <section class="editAddItem">               
-                <h2 class="sectionTitle"></h2>
                 <form method="post" enctype="multipart/form-data" action="#" class="">
-                    <div class="form">
-                        <div class="headingCenter">
+                     <div class="headingCenter">
                             <h1>Add/Edit House</h1>
                         </div><!--headingCenter-->
+                    <div class="form">
                         <div class="align">
                             <div>
                                 <label for="hPostcode">POSTCODE</label>

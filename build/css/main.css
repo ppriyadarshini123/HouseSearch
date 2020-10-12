@@ -123,7 +123,7 @@ header
 {
     display: flex;
     justify-content: space-between;
-    width: 37vw;    
+    width: 40vw;    
 }
 .navWidth li
 {
@@ -137,11 +137,12 @@ header
 .adminNav:hover
 {    
     text-decoration: underline;
+    background-color: #358016;
+    color: white;
+    padding: .3vw;
+    box-sizing: border-box;
 }
-.adminNav:active
-{
-    color: tomato;
-}
+
 
 
 /******************
@@ -196,14 +197,19 @@ header
     display: flex;
     justify-content: space-between;
 }
-.alignBtn
+/*.alignBtn
 {
     padding-top: 1.2vw;
     padding-bottom: 1vw;
-}
+}*/
+
 .fields
 {
-    
+    padding-top: 1.5vw;
+     text-align: left;
+   width: 25vw;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .btnSubmit
@@ -216,7 +222,12 @@ header
     font-weight: 100;
     font-style: normal;
     font-size: 20px;
-        
+    border: 1px transparent solid;        
+}
+.btnSubmit:hover
+{
+     border: 1px #1CE823 solid;
+     color: #FEFF1F;
 }
 /**********************************
  *  MAIN (index.php) SECTION
@@ -229,31 +240,42 @@ main{background-color: #eee;}
 }
 .container
 {
-    
+    padding-top: 1vw;
     background-color: #FFFFFF;
-    text-align: center;
+    text-align: center;   
     
 }
 
 .resHouse
 {
-    margin-top: 1vw;
-    margin-bottom: 2vw;
+   
+   
+}
+
+.indexSubmit
+{
+    margin-bottom: 1vw;
 }
 
 .hImage
 {
-    
+    width: 50%;
 }
 
 .resStreetName
 {
-    
+    margin-bottom: 1vw;
+    margin-top: 1vw;
 }
-.hStreet
+.hStreet, .hDetails, .hPD
 {
+    padding-top: .1vw;
+    padding-bottom: 1.2vw;
     
 }
+
+
+
 .resCity
 {
     
@@ -269,7 +291,75 @@ main{background-color: #eee;}
 
 .hPrice
 {
+    padding-top: 1.2vw;
+    padding-bottom: 1.2vw;
+    font-weight: bold;
+}
+
+.hFav
+{
     
+}
+
+/******************
+ *  HOUSEDETAILS PAGE
+ ******************/
+.housedetails
+{
+   
+}
+
+.alignBtnFav
+{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.flexAlign
+{
+    display: flex;    
+}
+.flexAlignInline
+{
+    display: inline-flex;
+}
+
+.dispGrid
+{
+    display: inline-grid;
+    width: 20%;
+}
+
+.divDetails
+{
+    border-right: #FFFFFF 2px solid;
+    padding: 1vw;
+    width: 50%;
+}
+.divFloorPlan
+{
+     padding: 1vw;
+    width: 50%;
+}
+.divDetails:hover,.divDetails:active, .divFloorPlan:hover, .divFloorPlan:active
+{
+    cursor: pointer;
+    background-color: #358016;
+    color: white;
+}
+.clickedDivFloorPlan
+{
+    display: none;  
+    margin-bottom: 1vw;    
+}
+
+.headingHouseDetails
+{
+    text-align: center;
+    background-color: #1CE823;
+    color: #FEFF1F;
+    letter-spacing: .1vw;
+    margin-bottom: .9vw;
 }
 
 /******************
@@ -281,7 +371,7 @@ main{background-color: #eee;}
 }
 .signin
 {
-    padding-top: 1vw;
+    
     padding-bottom: 1vw;
 }
 .flexCont
@@ -304,7 +394,7 @@ main{background-color: #eee;}
 
 .searchResults
 {
-    padding-top: 1.5vw;
+    
 }
 
 .resUserDetails
@@ -318,10 +408,7 @@ main{background-color: #eee;}
     
 }
 
-.resStreetName
-{
-    
-}
+
 .uName
 {
     
@@ -342,6 +429,18 @@ main{background-color: #eee;}
     padding-bottom: 1.5vw;
     margin-bottom: .9vw;
     justify-content: space-between;
+}
+.spPostcode
+{
+    padding-right: 2.2px;
+}
+.spMin
+{
+    padding-right: 4.3vw;
+}
+.spMax
+{
+    padding-right: 3.9vw;
 }
 
 /******************
@@ -370,16 +469,19 @@ main{background-color: #eee;}
 .headingCenter
 {
     text-align: center;
-    color: #358016;
+    background-color: #1CE823;
+    color: #FEFF1F;
     letter-spacing: .1vw;
-    padding-top: .2vw;
+    padding-top: 1.5vw;
     padding-bottom: 1.5vw;
     margin-bottom: .9vw;
 }
 
 .alignBtn
 {
-    text-align: center;
+    width: 20vw;
+    margin-top: 1vw;
+    margin-left: 39vw;
 }
 
 /******************
@@ -443,6 +545,7 @@ main{background-color: #eee;}
 
 .bottomFooter a:hover{
     text-decoration: underline;
+    background-color: 
 }
 
 .footBanner{

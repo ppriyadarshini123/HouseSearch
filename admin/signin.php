@@ -18,8 +18,8 @@ include("../includes/header.php");
         <section class="mainBody">           
                 <div class="container">
                     <section class="signinpage">                                  
-                            <div class="signin flexCont"><!--result product-->
-                                <p class="signin">Sign In</p>
+                            <div class="signin"><!--result product-->
+                                <p class="headingCenter">Sign In</p>
                                 <div class="email alignView">
                                     <span class="spEmail">Email : </span>
                                     <input name="email" type="email" placeholder="john@johndoe.com" required>

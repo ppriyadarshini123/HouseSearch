@@ -31,7 +31,7 @@
                 <input name="max" type="number" placeholder="450k" required>
             </div><!-- Max -->            
         </div><!-- fields -->
-        <div class="alignBtn">
+        <div class="indexSubmit">
             <input name="Submit" type="submit" class="btnSubmit">
         </div><!-- submit Button -->
     </div><!--/container-->
