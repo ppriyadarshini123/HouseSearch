@@ -238,12 +238,12 @@ main{background-color: #eee;}
 {
     
 }
-.container
+.contain
 {
     padding-top: 1vw;
     background-color: #FFFFFF;
-    text-align: center;   
-    
+    text-align: center; 
+    width:100%;    
 }
 
 .resHouse
@@ -362,6 +362,15 @@ main{background-color: #eee;}
     margin-bottom: .9vw;
 }
 
+.w-100
+{
+    width: 50%!important;
+}
+.d-block
+{
+    display: inline!important;
+}
+
 /******************
  *  SIGNIN PAGE
  ******************/
@@ -376,8 +385,8 @@ main{background-color: #eee;}
 }
 .flexCont
 {
-    margin-bottom: 2vw;
-    margin-top: 2vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
 }
 .password
 {
@@ -481,7 +490,7 @@ main{background-color: #eee;}
 {
     width: 20vw;
     margin-top: 1vw;
-    margin-left: 39vw;
+    margin-left: 36vw;
 }
 
 /******************

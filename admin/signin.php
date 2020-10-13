@@ -16,7 +16,7 @@ include("../includes/header.php");
 </header>
 <main>
         <section class="mainBody">           
-                <div class="container">
+                <div class="contain">
                     <section class="signinpage">                                  
                             <div class="signin"><!--result product-->
                                 <p class="headingCenter">Sign In</p>
@@ -41,7 +41,7 @@ include("../includes/header.php");
 
 </div><!--/wrapper-->
     <!-- add your JS here-->
-    <script src="build/js/index.js"> </script>
+    <script src="http://localhost/Payal_Priyadarshini_PHP_Project/build/js/index.js"> </script>
     <!--/ your JS here-->
 </body>
 </html>

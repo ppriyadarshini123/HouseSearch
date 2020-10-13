@@ -16,7 +16,7 @@ include("../admin/adminNav.php");
 
 <main>
         <section class="mainBody">           
-                <div class="container">
+                <div class="contain">
                   <section class="searchResults">  
                        <div class="headingCenter">
                             <h1>View Users</h1>

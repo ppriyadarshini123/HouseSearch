@@ -16,7 +16,7 @@ include("includes/banner.php");
 </header>
 <main>
     <section class="mainBody">           
-        <div class="container">
+        <div class="contain">
             <section class="searchResults">
                 <div class="headingCenter">
                     <h1>Search Results</h1>

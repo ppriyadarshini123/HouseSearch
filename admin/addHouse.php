@@ -14,7 +14,7 @@ include("../admin/adminNav.php");
 ?>
 <main>
     <section class="mainBody">
-        <div class="container">
+        <div class="contain">
             <section class="editAddItem">               
                 <form method="post" enctype="multipart/form-data" action="#" class="">
                      <div class="headingCenter">

@@ -8,7 +8,8 @@
     <title>PHP PROJECT| HOME</title>
     <link rel="stylesheet" href="https://use.typekit.net/vnj5wbt.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo ROOT;?>build/css/main.css" media="screen"/>
+    <link rel="stylesheet" href="http://localhost/Payal_Priyadarshini_PHP_Project/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://localhost/Payal_Priyadarshini_PHP_Project/build/css/main.css" media="screen"/>
     <link rel="shortcut icon" type="image/x-icon" href=""/>
     <meta name="author" content="Payal"/>
     <meta name="description" content="php project"/>

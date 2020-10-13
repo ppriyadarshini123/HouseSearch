@@ -30,9 +30,10 @@
         console.log("divFloorPlanClicked");
        
 
-        $("#divFloorPlan").click(function(){
-            $("#clickedDivDetails").hide();
+        $("#divFloorPlan").click(function(e){  
+            e.preventDefault()
             $("#clickedDivFloorPlan").show();
+            $("#clickedDivDetails").hide();
             $("#divFloorPlan").css("background-color", "#358016");
             $("#divFloorPlan").css("color", "#FFFFFF");
             $("#divDetails").css("background-color", "#1CE823");
