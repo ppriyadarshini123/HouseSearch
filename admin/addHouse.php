@@ -77,7 +77,7 @@ include("../admin/adminNav.php");
                 </form><!--/editAddHouse-->
             </section><!--/editAddHouse-->
         </div><!--/container-->    
-    </section><!--/ mainBody-->
+    </section><!--/mainBody-->
 </main>
 <?php include("../includes/footer.php"); ?> 
 </div><!--/wrapper-->

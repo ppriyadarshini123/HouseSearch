@@ -206,3 +206,10 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+/*Select houses*/
+ SELECT `house`.`hID`, `rentsale`.`rsRentSale`, `house`.`city`, `house`.`postcode`, `house`.`price`, `house`.`streetname`,
+    `house`.`details`, `house`.`image`, `house`.`floorplan`, `house`.`housenumber`
+FROM `house` , `rentsale`
+LEFT JOIN `house` ON `rentsale`.`rsID` = `house`.`rsID`  AND `house`.`rsID` = `rentsale`.`rsID` 
+Where `house`.`rsID` = '$key' OR `house`.`postcode` = '$key' OR `house`.`price` = '$key' 

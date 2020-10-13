@@ -47,8 +47,7 @@ include("../admin/adminNav.php");
                         </div><!--user email-->
                         <div>                                   
                             <p class="uPhone">+44-7654567363</p> 
-                        </div><!--/Phone number-->                     
-                     
+                        </div><!--/Phone number-->   
                     </div><!--/resUserDetails-->
                 </div><!--/flexCont-->   
             </section><!--/searchResults-->

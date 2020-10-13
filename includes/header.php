@@ -2,7 +2,6 @@
 
 <?php
 /**
- * Training Dragon
  *
  * PHP course project
  * url: /includes/header.php
@@ -13,10 +12,9 @@
     <header>
         <div class="topHeader">
             <div class="identity">
-                <a  href="<?php echo ROOT;?>index.php">
-                 <img class="logo" src="<?php echo ROOT;?>build/imgs/HomeSearch_logo_1-218x139.png" alt="logo">
+                <a  href="http://localhost/Payal_Priyadarshini_PHP_Project/index.php">
+                 <img class="logo" src="http://localhost/Payal_Priyadarshini_PHP_Project/build/imgs/HomeSearch_logo_1-218x139.png" alt="logo">
                  </a>
-                <h3 class="cName"></h3>
             </div><!--/identity-->
             <nav class="topNav">
                 <ul>

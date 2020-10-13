@@ -51,7 +51,8 @@ header
     padding-left: 30px;	
 }
 
-.cName{
+.cName
+{
     font-size: 16px;
     display: inline-block;
     padding-top: 33px;
@@ -60,11 +61,13 @@ header
     color:#1e3b4d;
 }
 
-.identity, .topNav{    
+.identity, .topNav
+{    
     display:inline-block;
 }
 
-.topNav {
+.topNav 
+{
     position: absolute;
     top:0;
     right:0;
@@ -73,13 +76,15 @@ header
     margin-right: 10vw;    
 }
 
-.topNav ul{
+.topNav ul
+{
     display:-ms-flexbox;
     display:flex;
     height: 100%;
 }
 
-.topNav a{
+.topNav a
+{
     display: inline-block;
     font-size:12px;
     text-transform: uppercase;
@@ -90,22 +95,31 @@ header
     color:#1e3b4d;
 }
 
-.topNav a.currentPageLink{
+.topNav a.currentPageLink
+{
     border-bottom:4px solid #ff3f38;
     color:#ff3f38;
 }
 
-.topNav a.currentPageLink:hover{
+.topNav a.currentPageLink:hover
+{
     text-decoration: none;
 }
 
-.topNav a:hover{
+.topNav a:hover
+{
     text-decoration: underline;
 }
 
-.topNav a.redLink{color: #ff3f38;}
+.topNav a.redLink
+{
+    color: #ff3f38;
+}
 
-.topNav a span.greyLink{color:#bfbfbf;}
+.topNav a span.greyLink
+{
+    color:#bfbfbf;
+}
 
 /******************
  *  ADMINNAV  SECTION
@@ -140,14 +154,12 @@ header
     text-decoration: underline;
     box-sizing: border-box;
 }
-
-
-
 /******************
  *  BANNER  SECTION
  ******************/
 
-.banner{
+.banner
+{
     background-image: url("../imgs/house-1351x460.png");
     background-repeat: no-repeat;
     height: 460px;
@@ -156,7 +168,8 @@ header
     position: relative;
 }
 
-.containerSearchPanel{
+.containerSearchPanel
+{
     width: 400px;
     background-color: #FFFFFF;
     text-align: center;
@@ -166,7 +179,8 @@ header
     left: 12%;
 }
 
-.redDash{
+.redDash
+{
     background-color: #ff3f38;
     width: 25px;
     height: 4px;
@@ -174,7 +188,8 @@ header
     margin-right: auto;
     margin-bottom: 1vw;
 }
-.mainName{
+.mainName
+{
     font-size: 42px;
     width:100%;
     padding-top: 1.2vw;
@@ -230,7 +245,10 @@ header
 /**********************************
  *  MAIN (index.php) SECTION
  ***********************************/
-main{background-color: #eee;}
+main
+{
+    background-color: #eee;
+}
 
 .mainBody
 {
@@ -269,12 +287,8 @@ main{background-color: #eee;}
 .hStreet, .hDetails, .hPD
 {
     padding-top: .1vw;
-    padding-bottom: 1.2vw;
-    
+    padding-bottom: 1.2vw;    
 }
-
-
-
 .resCity
 {
     
@@ -343,7 +357,7 @@ main{background-color: #eee;}
 }
 .divFloorPlan
 {
-     padding: 1vw;
+    padding: 1vw;
     width: 50%;
 }
 .divDetails:hover,.divDetails:active, .divFloorPlan:hover, .divFloorPlan:active
@@ -428,13 +442,10 @@ main{background-color: #eee;}
     padding: 1.5vw;
 }
 
-
-
 .uRole
 {
     
 }
-
 
 .uName
 {
@@ -469,7 +480,6 @@ main{background-color: #eee;}
 {
     padding-right: 3.9vw;
 }
-
 
 /******************
  *  ADD HOUSE PAGE
@@ -511,47 +521,12 @@ main{background-color: #eee;}
 }
 
 .alignBtn
-{
-   
+{   
 /*    margin-top: 1vw;
     margin-left: 2vw;*/
         text-align: center;
 }
 
-/******************
- *  FEEDBACK  SECTION
- ******************/
-.feedback{
-    color:#fff;
-    padding:20px 0;
-}
-.successMsg, .failMsg{
-    padding:15px 20px;
-    font-size:14px;
-    font-weight: 300;
-    margin:20px 0;
-    letter-spacing: .8px;
-}
-
-.successMsg{
-    background-color: darkgreen;
-    border:5px solid darkgreen;
-    background-image: url("../../build/imgs/yep.png");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-left: 20px;
-}
-
-.failMsg{
-    background-color: red;
-    border:5px solid red;
-    background-image: url("../../build/imgs/nope.png");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-left: 20px;
-}
 /******************
  *  FOOTER  SECTION
  ***********************************/
@@ -582,9 +557,7 @@ main{background-color: #eee;}
     background-color: 
 }
 
-.footBanner{
-    background-position: center;  
-}
+
 
 
 /******************

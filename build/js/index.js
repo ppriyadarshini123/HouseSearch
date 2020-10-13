@@ -27,9 +27,6 @@
      * @desc Handling clicking of floor plan divs
      */
     function divFloorPlanClicked() {
-        console.log("divFloorPlanClicked");
-       
-
         $("#divFloorPlan").click(function(e){  
             e.preventDefault()
             $("#clickedDivFloorPlan").show();
@@ -38,7 +35,7 @@
             $("#divFloorPlan").css("color", "#FFFFFF");
             $("#divDetails").css("background-color", "#1CE823");
             $("#divDetails").css("color", "#FEFF1F");
-        });        
+        });//click        
     }//divFloorPlanClicked
     
     
@@ -46,9 +43,7 @@
      * @name divDetailsClicked
      * @desc Handling clicking of details divs
      */
-    function divDetailsClicked() {
-        
-        console.log("divDetailsClicked");
+    function divDetailsClicked() {        
         $("#divDetails").click(function(){
             $("#clickedDivFloorPlan").hide();
             $("#clickedDivDetails").show();
@@ -56,7 +51,7 @@
              $("#divDetails").css("color", "#FFFFFF");
             $("#divFloorPlan").css("background-color", "#1CE823");
             $("#divFloorPlan").css("color", "#FEFF1F");
-        });        
+        });//click        
     }//divDetailsClicked
     
     
@@ -80,8 +75,7 @@
      * @desc calls other functions, controls the flow
      *
      */
-    function init() {
-        
+    function init() {        
         bindBtns();
     }//end init
 

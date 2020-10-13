@@ -20,29 +20,28 @@ include("includes/banner.php");
             <section class="searchResults">
                 <div class="headingCenter">
                     <h1>Search Results</h1>
-                </div><!--align heading-->
+                </div><!--headingCenter-->
                 <div class="resHouse flexCont"><!--result house-->
                     <a class="hImage" href="houseDetails.php">
-                        <img src="build/imgs/house-432x239.png" width="432"  height="239" title=""
+                        <img src="build/imgs/house-432x239.png" width="432"  height="239" title="Click for House Details"
                              alt="Click for House Details">
                     </a><!--/hImage-->
                     <div class="resStreetName">
                         <div>
-                        <p class="hRentSale">House for Rent/Sale</p>
-                        </div>
+                            <p class="hRentSale">House for Rent/Sale</p>
+                        </div><!--/hRentSale-->
                         <div>
-                        <p class="hPrice">Price: £ 400k</p>
-                        </div>
+                            <p class="hPrice">Price: £ 400k</p>
+                        </div><!--/hPrice-->
                         <div>                                   
                             <p class="hStreet">35 Osier Way, Cambridge, CB1 5FR</p> 
-                        </div><!--/resStreetName-->  
-                         <div>                                   
+                        </div><!--/hStreet-->  
+                        <div>                                   
                             <p class="hDetails">4 bedroom detached house for sale</p> 
-                        </div><!--/resDetails-->
-                       
+                        </div><!--/hDetails-->
                         <div class="alignBtn">
                             <input name="Add to Favourites" type="submit" class="btnSubmit" value="Add to Favourites">
-                        </div><!--/align-->
+                        </div><!--/alignBtn-->
                     </div><!--/resStreetName-->
                 </div>  <!--/resHouse-->             
             </section><!--/searchResults-->
