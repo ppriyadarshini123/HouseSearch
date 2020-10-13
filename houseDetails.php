@@ -53,7 +53,7 @@ include("includes/header.php");
                     <div class="divDetails" id="divDetails">Details</div>                        
                     <div class="divFloorPlan" id="divFloorPlan">Floor Plan</div>                       
                 </div><!--/flexAlign-->
-                <div class="resStreetName" id="clickedDivDetails">
+                <div class="resStreetNameDetails" id="clickedDivDetails">
                     <div>
                         <p class="hRentSale">House for Rent/Sale</p>
                     </div>

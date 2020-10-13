@@ -123,7 +123,7 @@ header
 {
     display: flex;
     justify-content: space-between;
-    width: 40vw;    
+    width: 48vw;    
 }
 .navWidth li
 {
@@ -136,10 +136,8 @@ header
 }
 .adminNav:hover
 {    
+    color:#358016;
     text-decoration: underline;
-    background-color: #358016;
-    color: white;
-    padding: .3vw;
     box-sizing: border-box;
 }
 
@@ -164,7 +162,7 @@ header
     text-align: center;
     border: 1vw #1CE823 solid;
     position: absolute;
-    top:7%;
+    top:4%;
     left: 12%;
 }
 
@@ -248,8 +246,8 @@ main{background-color: #eee;}
 
 .resHouse
 {
-   
-   
+   display: flex;  
+   margin-left: 86px;
 }
 
 .indexSubmit
@@ -265,7 +263,8 @@ main{background-color: #eee;}
 .resStreetName
 {
     margin-bottom: 1vw;
-    margin-top: 1vw;
+    margin-top: 3vw;
+    width:50%;
 }
 .hStreet, .hDetails, .hPD
 {
@@ -307,6 +306,12 @@ main{background-color: #eee;}
 .housedetails
 {
    
+}
+
+.resStreetNameDetails
+{
+    margin-bottom: 1vw;
+    margin-top: 3vw;
 }
 
 .alignBtnFav
@@ -408,9 +413,22 @@ main{background-color: #eee;}
 
 .resUserDetails
 {
-    margin-top: 1vw;
-    margin-bottom: 2vw;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
+
+.resUser
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #358016;
+    color: white;
+    padding: 1.5vw;
+}
+
+
 
 .uRole
 {
@@ -452,16 +470,22 @@ main{background-color: #eee;}
     padding-right: 3.9vw;
 }
 
+
 /******************
  *  ADD HOUSE PAGE
  ******************/
 .form
 {
-    padding-top: 1.5vw;
+    
      text-align: left;
-   width: 32vw;
+   width: 36vw;
    margin-left: auto;
    margin-right: auto;
+   margin-bottom: 1vw;
+}
+.fileUpload
+{
+    width: 43%;
 }
 
 /******************
@@ -483,14 +507,15 @@ main{background-color: #eee;}
     letter-spacing: .1vw;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
-    margin-bottom: .9vw;
+    margin-bottom: 1vw;
 }
 
 .alignBtn
 {
-    width: 20vw;
-    margin-top: 1vw;
-    margin-left: 36vw;
+   
+/*    margin-top: 1vw;
+    margin-left: 2vw;*/
+        text-align: center;
 }
 
 /******************

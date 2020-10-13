@@ -17,9 +17,9 @@ include("../admin/adminNav.php");
         <div class="contain">
             <section class="editAddItem">               
                 <form method="post" enctype="multipart/form-data" action="#" class="">
-                     <div class="headingCenter">
-                            <h1>Add/Edit House</h1>
-                        </div><!--headingCenter-->
+                    <div class="headingCenter">
+                        <h1>Add/Edit House</h1>
+                    </div><!--headingCenter-->
                     <div class="form">
                         <div class="align">
                             <div>
@@ -31,15 +31,15 @@ include("../admin/adminNav.php");
                         </div><!--align postcode-->
                         <div class="align">
                             <div>
-                                 <label for="hHouseNumber">HOUSE NUMBER</label>
+                                <label for="hHouseNumber">HOUSE NUMBER</label>
                             </div><!-- label house number -->
                             <div>
-                                 <input class="formField" type="text" id="hHouseNumber" name="hHouseNumber" value="">
+                                <input class="formField" type="text" id="hHouseNumber" name="hHouseNumber" value="">
                             </div><!--input housenumber-->
                         </div><!--align house number-->                       
                         <div class="align">
                             <div>
-                                 <label for="hCity">CITY</label>
+                                <label for="hCity">CITY</label>
                             </div><!-- label city -->
                             <div>
                                 <input class="formField" type="text" id="hCity" name="hCity" value="">
@@ -47,28 +47,28 @@ include("../admin/adminNav.php");
                         </div><!-- align city -->
                         <div class="align">
                             <div>
-                                 <label for="hPropertyDealer">PROPERTY DEALER</label>
+                                <label for="hPropertyDealer">PROPERTY DEALER</label>
                             </div><!-- label propertydealer -->
                             <div>
                                 <input list="hPropertyDealer" name="propertydealer">
                                 <datalist id="hPropertyDealer">
                                 </datalist>   
-                             </div><!-- input propertydealer -->
+                            </div><!-- input propertydealer -->
                         </div><!--/align-->
                         <div class="align">
                             <div>
-                                 <label for="hImage">PICTURE</label>
+                                <label for="hImage">PICTURE</label>
                             </div><!-- label picture -->
-                            <div>
+                            <div class="fileUpload">
                                 <div class="fileUploadBlock">
-                                <div class="flexCont">
-                                    <label for="hImage" class="">CHOOSE FILE</label>
-                                    <p>
-                                        <span class="formField uploadFileSpan" id="uploadPic">No file selected</span>
-                                    </p>
-                                </div><!--flexCont-->
-                                <input class="hiddenFileUpload" type="file" id="pImage" name="pImage" value="">
-                            </div><!--/fileUploadBlock-->
+                                    <div class="flexCont">
+                                        <label for="hImage" class="">CHOOSE FILE</label>
+                                        <p>
+                                            <span class="formField uploadFileSpan" id="uploadPic">No file selected</span>
+                                        </p>
+                                    </div><!--flexCont-->
+                                    <input class="hiddenFileUpload" type="file" id="pImage" name="pImage" value="">
+                                </div><!--/fileUploadBlock-->
                             </div><!-- file upload -->
                         </div><!--align picture-->
                         <div class="alignBtn">
