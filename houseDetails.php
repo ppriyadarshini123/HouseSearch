@@ -16,8 +16,10 @@ include("includes/header.php");
 <main>
     <section class="mainBody">           
         <div class="contain housedetails">
+            <div class="headingCenter">
+                        <h1>House Details</h1>
+                    </div><!--headingCenter-->
             <section class="searchResults">
-
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

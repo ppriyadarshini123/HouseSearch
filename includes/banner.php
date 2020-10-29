@@ -10,7 +10,8 @@
     <div class="containerSearchPanel">  
         <h1 class="mainName">Search</h1>
         <div class="redDash"></div><!-- redDash -->
-        <div class="fields">
+        <form method="post" action="#" class="fields">
+            <div class="centerAlign">
             <div class="alignView">
                 <span class="spSaleRent">Sale/Rent : </span>
                 <select id="ddSaleRent" title="ddSaleRent" name="dropdown" class="ddSaleRent">
@@ -19,8 +20,8 @@
                 </select>             
             </div>  <!-- saleRent -->
             <div class="alignView">
-                <span class="spPostcode">Postcode : </span>
-                <input name="cityPostcode" type="text" placeholder="City/Postcode" required>
+                <span class="spPostcode">Postcode : </span>               
+                <input name="cityPostcode" title = "postcode" type="text" id="citypostcode" class="fields" placeholder="City/Postcode" required>
             </div><!-- City/Postcode -->
             <div class="alignView">
                 <span class="spMin">Min : </span>
@@ -29,10 +30,11 @@
             <div class="alignView">
                 <span class="spMax">Max : </span>
                 <input name="max" type="number" placeholder="450k" required>
-            </div><!-- Max -->            
-        </div><!-- fields -->
-        <div class="indexSubmit">
-            <input name="Submit" type="submit" class="btnSubmit">
-        </div><!-- submit Button -->
+            </div><!-- Max -->   
+            <div class="indexSubmit">
+                <input name="Submit" type="submit" class="btnSubmit">
+            </div><!-- submit Button -->
+            </div>
+        </form>
     </div><!--/container-->
 </div><!--/banner-->

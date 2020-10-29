@@ -175,7 +175,7 @@ header
     text-align: center;
     border: 1vw #1CE823 solid;
     position: absolute;
-    top:4%;
+    top:11%;
     left: 12%;
 }
 
@@ -218,11 +218,8 @@ header
 
 .fields
 {
-    padding-top: 1.5vw;
-     text-align: left;
-   width: 25vw;
-   margin-left: auto;
-   margin-right: auto;
+  text-align: center;
+  
 }
 
 .btnSubmit
@@ -271,6 +268,7 @@ main
 .indexSubmit
 {
     margin-bottom: 1vw;
+    text-align: center;
 }
 
 .hImage
@@ -413,7 +411,7 @@ main
 }
 .spEmail
 {
-    padding-right: 3vw;
+    
 }
 
 /******************
@@ -459,26 +457,39 @@ main
 {
     
 }
+.centerAlign
+{
+    text-align: left;
+    width: 85%;  
+    margin-left: auto;
+  margin-right: auto;
+}
+
 .alignView
 {
     color: #358016;
     letter-spacing: .1vw;
     padding-top: .2vw;
-    padding-bottom: 1.5vw;
-    margin-bottom: .9vw;
+    padding-bottom: 1.5vw;    
     justify-content: space-between;
+}
+
+.alignView span
+{
+    width:7vw;
+    display: inline-table;
 }
 .spPostcode
 {
-    padding-right: 2.2px;
+    
 }
 .spMin
 {
-    padding-right: 4.3vw;
+    
 }
 .spMax
 {
-    padding-right: 3.9vw;
+    
 }
 
 /******************

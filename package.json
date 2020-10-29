@@ -11,8 +11,7 @@
   "dependencies": {
     "bootstrap": "^4.5.2",
     "jquery": "~3.5.1",
-    "nodejs": "0.0.0",
-    "npm": "nodejs"
+    "nodejs": "0.0.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.12",

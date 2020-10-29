@@ -12,8 +12,8 @@
     <header>
         <div class="topHeader">
             <div class="identity">
-                <a  href="http://localhost/Payal_Priyadarshini_PHP_Project/index.php">
-                 <img class="logo" src="http://localhost/Payal_Priyadarshini_PHP_Project/build/imgs/HomeSearch_logo_1-218x139.png" alt="logo">
+                <a  href="<?php echo ROOT;?>index.php">
+                 <img class="logo" src="<?php echo ROOT;?>/build/imgs/HomeSearch_logo_1-218x139.png" alt="logo">
                  </a>
             </div><!--/identity-->
             <nav class="topNav">

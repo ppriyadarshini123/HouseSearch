@@ -8,7 +8,6 @@
 include("../includes/utilities.php");
 
 //   THIS IS THE BEGINNING OF THE MARKUP
-
 include("../includes/top.php");
 include("../includes/header.php");
 
@@ -41,7 +40,7 @@ include("../includes/header.php");
 
 </div><!--/wrapper-->
     <!-- add your JS here-->
-    <script src="http://localhost/Payal_Priyadarshini_PHP_Project/build/js/index.js"> </script>
+    <script src="./build/js/index.js"> </script>
     <!--/ your JS here-->
 </body>
 </html>
