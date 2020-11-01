@@ -19,16 +19,16 @@ include("../includes/header.php");
                     <section class="signinpage">                                  
                             <div class="signin"><!--result product-->
                                 <p class="headingCenter">Sign In</p>
-                                <div class="email alignView">
-                                    <span class="spEmail">Email : </span>
-                                    <input name="email" type="email" placeholder="john@johndoe.com" required>
+                                <div class="email alignView">                                    
+                                    <label for="email" class="spEmail">Email :</label> 
+                                    <input name="email" type="email" placeholder="john@johndoe.com" required id="email">
                                 </div><!--/email-->
-                                <div class="password alignView"> 
-                                    <span class="spPsw">Password : </span>
-                                    <input name="password" type="password" placeholder="" required>                                  
+                                <div class="password alignView">                                    
+                                    <label for="psw" class="spPsw">Password :</label> 
+                                    <input name="password" type="password" placeholder="" required id="psw">                                  
                                 </div><!--/password-->                               
                                <div class="alignBtn">
-                                    <input name="Submit" type="submit" class="btnSubmit">
+                                    <button type="submit" class="btnSubmit">Submit</button>
                                </div><!-- submit Button --> 
                               </div>  <!--/signin-->             
                     </section><!--/signinpage-->
@@ -40,7 +40,7 @@ include("../includes/header.php");
 
 </div><!--/wrapper-->
     <!-- add your JS here-->
-    <script src="./build/js/index.js"> </script>
+   
     <!--/ your JS here-->
 </body>
 </html>

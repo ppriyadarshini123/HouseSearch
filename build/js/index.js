@@ -31,10 +31,10 @@
             e.preventDefault()
             $("#clickedDivFloorPlan").show();
             $("#clickedDivDetails").hide();
-            $("#divFloorPlan").css("background-color", "#358016");
-            $("#divFloorPlan").css("color", "#FFFFFF");
-            $("#divDetails").css("background-color", "#1CE823");
-            $("#divDetails").css("color", "#FEFF1F");
+            $("#divFloorPlan").addClass("background-color", "#358016");
+            $("#divFloorPlan").addClass("color", "#FFFFFF");
+            $("#divDetails").addClass("background-color", "#1CE823");
+            $("#divDetails").addClass("color", "#FEFF1F");
         });//click        
     }//divFloorPlanClicked
     
@@ -47,10 +47,10 @@
         $("#divDetails").click(function(){
             $("#clickedDivFloorPlan").hide();
             $("#clickedDivDetails").show();
-            $("#divDetails").css("background-color", "#358016");
-             $("#divDetails").css("color", "#FFFFFF");
-            $("#divFloorPlan").css("background-color", "#1CE823");
-            $("#divFloorPlan").css("color", "#FEFF1F");
+            $("#divDetails").addClass("background-color", "#358016");
+            $("#divDetails").addClass("color", "#FFFFFF");
+            $("#divFloorPlan").addClass("background-color", "#1CE823");
+            $("#divFloorPlan").addClass("color", "#FEFF1F");
         });//click        
     }//divDetailsClicked
     
@@ -62,8 +62,8 @@
      */
     function bindBtns() {
         /*Initial look of Tabs; Details and Floor Plan*/
-         $("#divDetails").css("background-color", "#358016");
-         $("#divDetails").css("color", "#FFFFFF");
+         $("#divDetails").addClass("background-color", "#358016");
+         $("#divDetails").addClass("color", "#FFFFFF");
              
         divDetailsClicked();
         divFloorPlanClicked();

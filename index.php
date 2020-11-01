@@ -39,8 +39,8 @@ include("includes/banner.php");
                         <div>                                   
                             <p class="hDetails">4 bedroom detached house for sale</p> 
                         </div><!--/hDetails-->
-                        <div class="alignBtn">
-                            <input name="Add to Favourites" type="submit" class="btnSubmit" value="Add to Favourites">
+                        <div class="alignBtn">                            
+                             <button type="button" class="btnSubmit">Add to Favourites</button>
                         </div><!--/alignBtn-->
                     </div><!--/resStreetName-->
                 </div>  <!--/resHouse-->             
@@ -53,7 +53,7 @@ include("includes/banner.php");
 
 </div><!--/wrapper-->
 <!-- add your JS here-->
-<script src="build/js/index.js"></script>
+
 <!--/ your JS here-->
 </body>
 </html>

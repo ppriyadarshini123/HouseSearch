@@ -52,7 +52,7 @@ include("../admin/adminNav.php");
                                 <input class="formField" type="text" id="uPhoneNumber" name="uPhoneNumber" value="">                                
                             </div><!--/align phone number-->                       
                             <div class="alignBtn">
-                                <button type="submit" name="submit" class="btnSubmit">Submit</button>                                
+                                <button type="submit" class="btnSubmit">Submit</button>                                
                             </div><!--/align submit--> 
                         </div><!--/editAddHousealign-->
                 </form><!--/editAddHouse-->
@@ -63,7 +63,7 @@ include("../admin/adminNav.php");
 <?php include("../includes/footer.php"); ?> 
 </div><!--/wrapper-->
 <!-- add your JS here-->
-<script src="build/js/index.js"></script>
+
 <!--/ your JS here-->
 </body>
 </html>

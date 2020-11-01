@@ -72,7 +72,7 @@ include("../admin/adminNav.php");
                             </div><!-- file upload -->
                         </div><!--align picture-->
                         <div class="alignBtn">
-                            <button type="submit" name="submit" class="btnSubmit">Submit</button>                                
+                           <button type="submit" name="submit" class="btnSubmit">Submit</button>                              
                         </div><!-- alignBtn -->
                 </form><!--/editAddHouse-->
             </section><!--/editAddHouse-->
@@ -82,7 +82,7 @@ include("../admin/adminNav.php");
 <?php include("../includes/footer.php"); ?> 
 </div><!--/wrapper-->
 <!-- add your JS here-->
-<script src="build/js/index.js"></script>
+
 <!--/ your JS here-->
 </body>
 </html>

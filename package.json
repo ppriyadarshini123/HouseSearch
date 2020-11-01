@@ -2,20 +2,19 @@
   "name": "homesearch",
   "version": "0.0.0",
   "git repository": "https://github.com/ppriyadarshini123/HouseSearch",
-  "description": "Generated with Eclipse npm Tools",
-  "main": "index.js",
+  "description": "This is HTML Template for the PHP Project",
+  "main": "index.html",
   "scripts": {
     "test": "echo 'Error: no test specified' && exit 1",
     "startServer": "browser-sync start --directory --proxy 'localhost/Payal_Priyadarshini_PHP_Project' --files 'build/js/*.js, *.php, build/css/*.css'"
   },
   "dependencies": {
-    "bootstrap": "^4.5.2",
-    "jquery": "~3.5.1",
-    "nodejs": "0.0.0"
+    "bootstrap": "^4.5.3",
+    "jquery": "~3.5.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.12",
-    "gulp": "^4.0.2"
+    "browser-sync": "^2.26.13",
+    "gulp": "~4.0.2"
   },
   "author": "Payal",
   "license": "ISC",

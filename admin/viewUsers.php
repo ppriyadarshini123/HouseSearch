@@ -59,7 +59,6 @@ include("../admin/adminNav.php");
 
 </div><!--/wrapper-->
 <!-- add your JS here-->
-<script src="../build/js/index.js"></script>
 <!--/ your JS here-->
 </body>
 </html>

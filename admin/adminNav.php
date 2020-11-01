@@ -17,7 +17,7 @@
 </header>
 </div><!--/wrapper-->
 <!-- add your JS here-->
-<script src="<?php echo ROOT;?>/build/js/index.js"></script>
+
 <!--/ your JS here-->
 </body>
 </html>
